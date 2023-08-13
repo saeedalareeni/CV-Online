@@ -1,0 +1,17 @@
+/* Start Index page */
+.index-body {
+  background: linear-gradient(to bottom, #504099, #313866);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.index-title {
+  height: 90vh;
+}
+
+.container .index-title-text h1 {
+  background: -webkit-linear-gradient( #FFE17B, #C51605);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* End Index page */
