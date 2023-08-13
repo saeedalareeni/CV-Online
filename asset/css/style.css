@@ -45,3 +45,25 @@ main section.container .order-titleBg{
     background-size: cover;
 }
 /* End Login page */
+
+
+/* Start Reset page */
+.reset-titleBg{
+  background: url('../media/resetpw.jpg');
+  background-size: cover;
+}
+/* End Reset page */
+
+/* Start AccessCode page */
+.reset-titleBg{
+  background: url('../media/accesscode.jpg');
+  background-size: cover;
+}
+/* End AccessCode page */
+
+/* Start LoggedIn page */
+.loggedin-table{
+  height: 80vh;
+}
+/* Start LoggedIn page */
+
