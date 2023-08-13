@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 :root {
   --gradientBody: linear-gradient(to bottom, #504099, #445069);
   --headingText: -webkit-linear-gradient(#ffe17b, #ff52a2);
+  --greencvtext: #38db5b81;
+}
+* {
+  font-family: "Noto Sans", sans-serif;
 }
 
 /* Start Index page */
@@ -84,11 +89,16 @@ main section.container .order-titleBg {
 }
 
 .box-shadow {
-  box-shadow: -8px 13px 11px #38db5b81;;
+  box-shadow: -8px 13px 11px var(--greencvtext);
 }
 
-.card .card-text{
+.card .card-text {
   margin-top: 25vh;
+}
+
+.personalText {
+  color: var(--greencvtext);
+  font-family: 600;
 }
 
 /* Start Show CV page */
