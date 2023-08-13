@@ -36,7 +36,7 @@
 
     <main>
       <section class="container bg-white rounded-3 my-5">
-        <div class="row ">
+        <div class="row">
           <div class="col-md-7 py-4">
             <h2 class="mt-5 text-uppercase text-center pb-3">
               Order your CV Now !
@@ -83,6 +83,23 @@
                 </div>
 
                 <div class="mb-3">
+                  <label for="Duration" class="form-label"
+                    >Duration of the CV</label
+                  >
+                  <input type="text" class="form-control" id="Duration" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="startDate" class="form-label">Start Date</label>
+                  <input type="date" class="form-control" id="startDate" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="UserName" class="form-label">Username</label>
+                  <input type="text" class="form-control" id="UserName" />
+                </div>
+
+                <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label"
                     >Password</label
                   >
@@ -92,21 +109,55 @@
                     id="exampleInputPassword1"
                   />
                 </div>
-                <div class="mb-3 form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="exampleCheck1"
-                  />
-                  <label class="form-check-label" for="exampleCheck1"
-                    >Check me out</label
+
+                <div>
+                  <label for="paypal" class="form-label"
+                    >Choose payment Method</label
                   >
+
+                  <div class="mb-3 d-flex gap-3">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="payment"
+                        id="paypal"
+                      />
+                      <label class="form-check-label" for="paypal">
+                        <img src="asset/media/paypal.png" alt="paypal logo" class="img-fluid w-25">
+                        Paypal
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="payment"
+                        id="bank"
+                        checked
+                      />
+                      <label class="form-check-label" for="bank">
+                        <img src="asset/media/bank.png" alt="Bank logo" class="img-fluid w-25">
+
+                        BY Bank
+                      </label>
+                    </div>
+                  </div>
                 </div>
-                <div id="emailHelp" class="form-text text-white">
+
+                <div class="form-text">
                   We'll never share your Data with anyone else.
                 </div>
-                <div class="d-flex justify-content-end">
-                  <button type="submit" class="btn btn-primary">Order Now!</button>
+                <div
+                  class="d-flex justify-content-lg-end justify-content-md-center mt-3 mt-lg-0"
+                >
+                  <button
+                    type="submit"
+                    class="btn btn-outline-primary px-5 py-2"
+                  >
+                    Order Now!
+                  </button>
                 </div>
               </form>
             </div>
