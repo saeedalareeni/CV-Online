@@ -24,6 +24,7 @@ body.index-body {
 /* Start OrderCV page */
 .order-body{
     background: var(--gradientBody);
+    height: 100vh;
 }
 
 h2.order-title{
@@ -37,3 +38,10 @@ main section.container .order-titleBg{
     background-size: cover;
 }
 /* End OrderCV page */
+
+/* Start Login page */
+.login-titleBg{
+    background: url('../media/loginImage.jpg');
+    background-size: cover;
+}
+/* End Login page */
