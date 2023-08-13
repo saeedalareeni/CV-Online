@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="asset/plugins/bootstrap/css/bootstrap.min.css"
+    />
+    <title>Online CV - Order CV</title>
+  </head>
+  <body class="order-body">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Online CV</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <div>
+            <a href="login.html" class="btn btn-primary"> Login </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="container bg-white rounded-3 my-5">
+        <div class="row ">
+          <div class="col-md-7 py-4">
+            <h2 class="mt-5 text-uppercase text-center pb-3">
+              Order your CV Now !
+            </h2>
+            <div class="d-flex justify-content-center">
+              <form class="w-75">
+                <div class="d-flex gap-2">
+                  <div class="mb-3 col-md-6">
+                    <label for="Fname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="Fname" />
+                  </div>
+
+                  <div class="mb-3 col-md-6">
+                    <label for="Lname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="Lname" />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="Address" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="Address" />
+                </div>
+
+                <div class="d-flex gap-2">
+                  <div class="mb-3 col-md-6">
+                    <label for="City" class="form-label">City</label>
+                    <input type="text" class="form-control" id="City" />
+                  </div>
+
+                  <div class="mb-3 col-md-6">
+                    <label for="Town" class="form-label">Town</label>
+                    <input type="text" class="form-control" id="Town" />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="Phone" class="form-label">Phone</label>
+                  <input type="number" class="form-control" id="Phone" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div>
+                <div id="emailHelp" class="form-text text-white">
+                  We'll never share your Data with anyone else.
+                </div>
+                <div class="d-flex justify-content-end">
+                  <button type="submit" class="btn btn-primary">Order Now!</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-5 order-titleBg"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

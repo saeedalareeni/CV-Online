@@ -1,6 +1,11 @@
+:root{
+    --gradientBody: linear-gradient(to bottom, #504099, #445069);
+    --headingText: -webkit-linear-gradient( #FFE17B, #FF52A2);
+}
+
 /* Start Index page */
-.index-body {
-  background: linear-gradient(to bottom, #504099, #313866);
+body.index-body {
+  background: var(--gradientBody);
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -10,8 +15,25 @@
 }
 
 .container .index-title-text h1 {
-  background: -webkit-linear-gradient( #FFE17B, #C51605);
+  background: var(--headingText);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /* End Index page */
+
+/* Start OrderCV page */
+.order-body{
+    background: var(--gradientBody);
+}
+
+h2.order-title{
+    background: var(--headingText);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main section.container .order-titleBg{
+    background: url('../media/orderImage.jpg');
+    background-size: cover;
+}
+/* End OrderCV page */
